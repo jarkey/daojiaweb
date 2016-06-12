@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on 
+
+#新闻
+RewriteRule news_view_([0-9]{1,}).html$ news_view.php?id=$1
+RewriteRule news_([0-9]{1,}).html$ news.php?page=$1
+#用户见证
+RewriteRule yhjz_([0-9]{1,}).html$ yhjz.php?page=$1
+#常见问题
+RewriteRule faq_([0-9]{1,}).html$ faq.php?page=$1
+#商品
+#total=3&search=&class=44&class1=&sort=1&page=1
+RewriteRule shangping_view_([0-9]{1,}).html$ shangpin_view.php?id=$1
+RewriteRule shangPin_([0-9]{1,}).html$ shangPin.php?class=$1
+RewriteRule shangPin_([0-9]{1,})-([0-9]{1,}).html$ shangPin.php?total=$1&page=$2
+RewriteRule shangPin_([0-9]{1,})-([0-9]{1,})-([0-9]{1,}).html$ shangPin.php?total=$1&class=$2&page=$3
+#帮助中心
+RewriteRule help_([0-9]{1,}).html$ help.php?id=$1
+#信息，用于单个信息页面
+RewriteRule info_([0-9]{1,}).html$ info.php?id=$1
+#栏目页面
+RewriteRule index.html$ index.php
+RewriteRule shangPin.html$ shangPin.php
+RewriteRule online.html$ online.php
+RewriteRule knowledge.html$ knowledge.php
+RewriteRule news.html$ news.php
+RewriteRule notice.html$ notice.php
+</IfModule>
+# END dmooo

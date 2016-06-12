@@ -1,0 +1,23 @@
+
+/***********分页列表样式***************/
+.menu { padding-left:70px;}
+.menu ol{ 
+line-height:30px;
+
+}
+
+.menu ol li{
+/*list-style-image: url('../images/newtitle.gif');*/
+vertical-align:text-top;	
+}
+
+.menu a:link {
+	text-decoration: none;}
+.menu a:visited {
+	text-decoration: none;}
+.menu a:hover  {
+text-decoration: none;
+color:#F00;
+	
+}
+.menu  a:active { text-decoration: none; }

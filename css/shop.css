@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+#mainBody{ width:1200px; margin:0 auto 10px; position:relative;}/*kp*/
+#mainBody{ width:1200px; margin:0 auto 10px; position:relative;}/*kp*/
+
+
+/*-------------------------- 在线充值 start ------------------------------------*/
+#online_cz{ }
+#online_cz .title{ background:url(../images/pro_bg.png) no-repeat -408px -385px; height:22px; line-height:22px; text-align:right; margin:20px 0 10px;}
+#online_cz .title strong{ font-weight:normal; color:#c00;} 
+#online_cz .content{ margin-top:10px; border:1px solid #299c0c; background:#f2feef; padding:20px 25px 10px 15px;}
+#online_cz .content .left1{ float:left; width:640px; *width:640px; background:url(../images/line.png) no-repeat right center;}
+/*#online_cz .content .left td{ padding:20px 0; font-size:14px; color:#333;}*/
+#online_cz .content  td{ padding:20px 0; font-size:14px; color:#333;}
+#online_cz .content .left1 td .txt{ border:1px solid #ccc; height:23px; line-height:23px; width:100px;}
+#online_cz .content .left1 td span{ color:#f60;}
+#online_cz .content .left1 td label{ vertical-align:middle; margin:0 15px 0 10px; cursor:pointer;}
+/*#online_cz .content .left td .online{ background:url(../images/pro_bg.png) no-repeat 0 -576px; display:inline-block; width:172px; height:37px;}
+#online_cz .content .left td .online-cz{ background:url(../images/cz.png) no-repeat left center; display:inline-block; width:245px; height:50px;}
+#online_cz .content .left td .alpay{ background:url(../images/pro_bg.png) no-repeat -622px -260px; display:inline-block; width:130px; height:37px;}
+#online_cz .content .left td .confir{background:url(../images/pro_bg.png) no-repeat -284px -317px; }
+#online_cz .content .left td .back{background:url(../images/pro_bg.png) no-repeat -436px -317px; }*/
+.online{ background:url(../images/pro_bg.png) no-repeat 0 -576px; display:inline-block; width:172px; height:37px; margin-top:15px;}
+.online-cz { background: url(../images/cz.png) no-repeat left 10px; display: inline-block; width: 245px;height: 60px;}
+.alpay{ background:url(../images/zfb_cz.jpg) no-repeat; display:inline-block; width:130px; height:37px;}
+.jiaohang {background:url(../images/jiaohang_logo_2.jpg) no-repeat; display:inline-block; width:184px; height:52px;margin-top: 20px;}
+.jianhang {background:url(../images/jianhang_logo.jpg) no-repeat; display:inline-block; width:184px; height:52px;margin-top: 20px;}
+.EverBrightBank {background:url(../images/EverBright_log_1.jpg) no-repeat; display:inline-block; width:184px; height:52px;margin-top: 20px;}
+.EPayBank {background:url(../images/Y_zf.jpg) no-repeat;display:inline-block;width:184px;height:37px;margin-top:20px;}
+#online_cz .content .left1 td strong{ color:#1a6307; font-size:14px;}
+#online_cz .content .left1 td a{ width:121px; height:36px; display:inline-block; margin-right:10px;}
+ .confir{background:url(../images/pro_bg.png) no-repeat -284px -317px; }
+ .back1{background:url(../images/pro_bg.png) no-repeat -436px -317px; }
+.left1 table td .Dialog_box { width:14px; height:12px; margin:4px 0px 0px 5px; background:url(../images/Dialog_box.png) no-repeat top left; cursor:pointer;}
+.left1 table td .Dialog_div  {
+	position:absolute;
+	width:300px;
+	padding:2px 10px;
+	line-height:24px;
+	background-color:#fff;
+	border:1px solid #ddd;
+	left: 23px;
+	top: -12px;
+    font-size:12px;
+}
+.left1 table td .triangrt {
+	width:6px;
+	height:11px;
+	position:absolute;
+	background:url(../images/triangle_right.png) no-repeat top left;
+	left: 18px;
+	top: -3px;
+	z-index:99;
+}
+.left1 table td .dialo_boxcontent { position:relative; /*display:none;*/}
+#online_cz .content .right1{ float:right; width:450px; margin-top:20px;}
+#online_cz .content .right1 h2{ background:url(../images/pro_bg.png) no-repeat  -343px -585px; height:22px; line-height:22px; padding-left:30px; color:#127f45; font-weight:bold; 
+font-size:14px; margin-bottom:10px;}
+#online_cz .content .right1 p{ color:#666; line-height:26px; margin-bottom:10px;}
+.nanjing_card{width:134px; height:42px;background:url(../images/nanjing-card.jpg) no-repeat 0 0; display:inline-block; position:relative;}
+#online_cz .content .left td.pat_10{padding-top:10px;}
+
+/*充值遇到问题弹出框 start*/
+#mask_layer{ background:#000; width:100%; filter:alpha(opacity=40); -moz-opacity:0.4; opacity:0.4; position:absolute; top:0;  left:0; z-index:1000000; padding:0; margin:0; height:1500px; display:none;}
+#recharge{ width:500px; height:185px; background:#fff; padding:5px; position:absolute; z-index:1000001; left:50%; top:250px;  margin-left:-250px; margin-top:-92px;
+border:5px solid #333; display:none; text-align:center; padding:15px 20px 20px;}
+#recharge h3{ text-align:left; margin-bottom:10px; overflow:auto; border-bottom:1px solid #ccc; padding-bottom:5px; margin-bottom:20px; _height:22px;}
+#recharge h3 span{ font-size:18px; font-weight:bold; float:left;}
+#recharge h3 a{ display:inline-block; width:17px; height:17px; background:url(../images/close_ico.png) no-repeat 0 0; float:right;}
+#recharge p{ line-height:26px; text-align:left; font-weight:bold; color:#666; margin-bottom:10px;}
+#recharge p.warning{ background:url(../images/detail_ico02.png) no-repeat 0 3px; height:23px; padding-left:25px; font-weight:normal;}
+#recharge h4{ margin-top:30px;}
+#recharge h4 a{ display:inline-block; background:url(../images/user_bg.png) no-repeat 0 -405px; width:90px; height:29px; line-height:29px; color:#666; font-weight:bold; text-align:center;
+margin:0 5px;font-size:12px;}
+#recharge a.back{ display:block; text-align:left; color:#f60; margin-top:10px;}

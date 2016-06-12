@@ -1,0 +1,28 @@
+A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+
+.undis {
+	DISPLAY: none
+}
+
+#focus_img {
+	WIDTH: 330px; MARGIN-RIGHT: 15px; HEIGHT:auto;
+}
+#focus_warp {
+	DISPLAY: inline; FLOAT: left; MARGIN: 6px 6px 0px 0px
+}
+#au {
+	FILTER: progid:DXImageTransform.Microsoft.Fade ( duration=0.5,overlap=1.0 )
+}
+#au IMG {
+	FILTER: progid:DXImageTransform.Microsoft.Fade ( duration=0.5,overlap=1.0 );
+}
+#simg{ margin-top:10px;}
+#simg IMG {
+	MARGIN-TOP: 7px; FILTER: Alpha(opacity=50); VERTICAL-ALIGN: 0px; CURSOR: pointer; 
+}
+#simg .s IMG {
+	PADDING-RIGHT: 2px; MARGIN-TOP: 0px; PADDING-LEFT: 2px; BACKGROUND: url(../images/simg_bg_130.gif) no-repeat; FILTER: Alpha(opacity=100);PADDING-BOTTOM: 2px; PADDING-TOP: 2px; 
+}
+

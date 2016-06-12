@@ -1,0 +1,148 @@
+BODY {FONT-SIZE: 12px; MARGIN: 0px; FONT-FAMILY: 宋体,黑体; BACKGROUND-COLOR: #ffffff}
+td {FONT-SIZE: 12px;COLOR: #333333;font-family: "宋体";	} 
+image { border:0px;}
+A {COLOR: #666666; TEXT-DECORATION: none}
+
+/*****index.php使用样式*****/
+.login_bg_div {
+	BACKGROUND-POSITION: center center; MARGIN-TOP: 6%; BACKGROUND-IMAGE:url(../images/bg.jpg); MARGIN-LEFT: auto; WIDTH: 571px; MARGIN-RIGHT: auto; BACKGROUND-REPEAT: no-repeat; HEIGHT: 537px;
+}
+.login_bg_div2 {
+	FONT-WEIGHT: 800; FONT-SIZE: 14px; WIDTH: 571px; COLOR: #ffffff; HEIGHT: 30px;
+}
+.login_bg_div1 {
+	BACKGROUND-POSITION: center top; MARGIN-TOP: 10%; BACKGROUND-IMAGE: url(../images/bg.jpg); MARGIN-LEFT: auto; WIDTH: 571px; MARGIN-RIGHT: auto; BACKGROUND-REPEAT: no-repeat; HEIGHT: 507px;
+}
+.bg_color {
+	BACKGROUND-COLOR: #23579f; TEXT-ALIGN: center;
+}
+.login {
+	BACKGROUND-POSITION: center center; BACKGROUND-IMAGE: url(../images/login.gif); WIDTH: 98px; CURSOR: pointer; COLOR: #666666; BACKGROUND-REPEAT: no-repeat; HEIGHT: 33px;
+}
+.copyju {
+	PADDING-LEFT: 90px
+}
+.hg03 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; COLOR: #666666; TEXT-INDENT: 23px; LINE-HEIGHT: 20px; PADDING-TOP: 5px
+}
+.loginlink A:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #fffb02; TEXT-DECORATION: underline
+}
+.loginlink A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #fffb02; TEXT-DECORATION: underline
+}
+.loginlink A:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.loginlink A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.input_link {
+	BACKGROUND-POSITION: center center; BACKGROUND-IMAGE: url(../images/input_link.gif); WIDTH: 161px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 22px
+}
+.input_bg_style {BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-LEFT-COLOR: #d4d0c8; BORDER-BOTTOM-WIDTH: 0px; BORDER-BOTTOM-COLOR: #d4d0c8; WIDTH: 135px; BORDER-TOP-COLOR: #d4d0c8; HEIGHT: 16px; BORDER-RIGHT-WIDTH: 0px; BORDER-RIGHT-COLOR: #d4d0c8}
+
+/*****top.php使用样式*****/
+.top_bg_left1 {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(../images/top_bg_left1.gif); WIDTH: 25px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 99px;
+}
+.top_bg_mid1 {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(../images/top_bg_mid1.gif); BACKGROUND-REPEAT: repeat-x; HEIGHT: 99px;
+}
+.top_bg_right1 {
+	BACKGROUND-POSITION: left top; BACKGROUND-IMAGE: url(../images/top_bg_right1.gif); WIDTH: 25px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 99px;
+}
+.topmenu ul{list-style:none;} 
+.topmenu li{float:left;width:100px;background:#e6f5ff;} 
+.topmenu a{display:block；text-align:center;height:30px;}
+.topmenu a:link{color:#666;background:#CCC;text-decoration:none;}
+.topmenu a:visited{color:#666;text-decoration:underline;}
+.topmenu a:hover{color:#FFF; font-weight:bold;text-decoration:underline;background:#F00;}
+
+/*****left.php使用样式*****/
+.left_bg_mid1 {
+	BACKGROUND-POSITION: right center; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(../images/left_bg_mid1.gif); WIDTH: 218px; COLOR: #666666; BACKGROUND-REPEAT: repeat-y
+}
+
+.leftmenu {margin:10px 0px 0px 10px;width:187px;}
+  .leftmenu .left_bg_top1 {
+	FONT-SIZE: 14px; BACKGROUND-IMAGE: url(../images/left_bg_top1.gif); WIDTH:auto; COLOR: #035b6b; BACKGROUND-REPEAT: no-repeat; HEIGHT: 24px;font-weight:bold; margin-bottom:0px; padding:10px 0px 0px 20px;
+}
+  .leftmenu .left_bg_bottom1 {
+	BACKGROUND-IMAGE: url(../images/left_bg_bottom1.gif); WIDTH:auto; BACKGROUND-REPEAT: no-repeat; HEIGHT: 8px
+}
+  .leftmenu .border1{border:1px #0CF solid; border-width:0px 1px; width:185px;} 
+  .leftmenu ul{ margin:0px 0px 0px 10px;} 
+  .leftmenu li{line-height:25px;list-style-type:none;} 
+  .leftmenu a{display:block；height:30px;}
+  .leftmenu a:link{color:#666;text-decoration:none;}
+  .leftmenu a:visited{text-decoration:none;}
+  .leftmenu a:hover{color:#FFF; font-weight:bold;text-decoration:underline;background:#06F;}
+
+/*****bottom.php使用样式*****/
+.bottom_border {
+	BORDER-RIGHT: #b9e6f5 1px solid; BORDER-TOP: #b9e6f5 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #b9e6f5 1px solid; BORDER-BOTTOM: #b9e6f5 1px solid
+}
+.bottom_bg_color {
+	COLOR: #666666; HEIGHT: 28px; BACKGROUND-COLOR: #e6f5ff
+}
+.bottom_text {
+	FLOAT: left; MARGIN-LEFT: 10px; COLOR: #666666
+}
+.bottom_text1 {
+	FLOAT: left; MARGIN-LEFT: 80px; COLOR: #666666
+}
+.company_name {
+	PADDING-RIGHT: 10px; FLOAT: right; COLOR: #666666
+}
+.company_name A:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.company_name A:visited {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+.company_name A:hover {
+	COLOR: #ffa600; TEXT-DECORATION: underline
+}
+.company_name A:active {
+	COLOR: #ffa600; TEXT-DECORATION: underline
+}
+
+/*********表格效果设置*************/
+
+.tableCss3{width:98%;border:#7dc6f0 solid;border-width:1px 1px 0px 0px; margin-top:10px;}
+/*用于各种表格，边框色#7dc6f0*/
+.tableCss3 td{ min-width:30px; padding:5px;background-color:#FFF;height:30px;border:#7dc6f0 solid;}
+.tableCss3 .tdBg1{background-color:#e6f5ff;FONT-WEIGHT:bold; FONT-SIZE: 14px; COLOR: #035b6b;}
+.tableCss3 .titleBg1{ background:url(../images/titleBg1.gif) repeat-x;FONT-WEIGHT:bold; FONT-SIZE: 14px; COLOR: #035b6b; height:33px;}
+.tableCss3 .tdBorder1{border-width:0px 0px 1px 1px;}
+
+.tableCss4{width:98%; border:#7dc6f0 solid; border-width:1px 1px 0px 0px; margin-top:10px;}  
+/*用于各种表格，边框色#7dc6f0*/
+.tableCss4 td{ min-width:30px; padding:5px;background-color:#FFF;height:30px;border:#7dc6f0 solid;}
+.tableCss4 .tdBg1{background-color:#e6f5ff;FONT-WEIGHT:bold; FONT-SIZE: 14px; COLOR: #035b6b;}
+.tableCss4 .titleBg1{ background:url(../images/titleBg1.gif) repeat-x;FONT-WEIGHT:bold; FONT-SIZE: 14px; COLOR: #035b6b; height:33px;}
+.tableCss4 .tdBorder1{border-width:0px 0px 1px 1px;}
+
+/*********按钮设置*************/
+
+.btn_link {
+	COLOR: #035b6b; HEIGHT: 30px
+}
+.btn_over {
+	BACKGROUND-POSITION: right center; BACKGROUND-IMAGE: url(../images/btn_over.gif); CURSOR: pointer; COLOR: #000000; BACKGROUND-REPEAT: no-repeat; HEIGHT: 30px
+}
+.btn {
+	BORDER-RIGHT: #5ec0d9 1px solid; BORDER-TOP: #5ec0d9 1px solid; MARGIN-TOP: 6px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(/App_Themes/skin1/btn.gif); OVERFLOW: hidden; BORDER-LEFT: #5ec0d9 1px solid; WIDTH: 65px; CURSOR: pointer; COLOR: #035b6b! important; LINE-HEIGHT: 22px; BORDER-BOTTOM: #5ec0d9 1px solid; BACKGROUND-REPEAT: repeat; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.btn_red {
+	BORDER-RIGHT: #5ec0d9 1px solid; BORDER-TOP: #5ec0d9 1px solid; MARGIN-TOP: 6px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(/App_Themes/skin1/btn.gif); OVERFLOW: hidden; BORDER-LEFT: #5ec0d9 1px solid; WIDTH: 65px; CURSOR: pointer; COLOR: #ff0000! important; LINE-HEIGHT: 22px; BORDER-BOTTOM: #5ec0d9 1px solid; BACKGROUND-REPEAT: repeat; HEIGHT: 22px; TEXT-ALIGN: center
+}
+.btn_bg {
+	BACKGROUND-POSITION: center center; LINE-HEIGHT: 30px; HEIGHT: 30px; BACKGROUND-COLOR: #e6f5ff
+}
+.btn_disable {
+	BORDER-RIGHT: dimgray 1px solid; BORDER-TOP: dimgray 1px solid; BORDER-LEFT: dimgray 1px solid; BORDER-BOTTOM: dimgray 1px solid; BACKGROUND-COLOR: #ececec
+}
+
+
